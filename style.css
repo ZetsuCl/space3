@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    background: url('http://i.imgur.com/etP4KIe.png');
+    line-height: 11px;
+    font-family: arial;
+    -webkit-user-select: none;
+    transition: all 0.5s ease;
+}
+
+/* Images */
+img {
+    -webkit-filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+/* Header */
+#xatstyheader {
+    height: 35px;
+    background: #000000;
+    transition: all 0.5s ease;
+}
+
+#xatstyheader:hover {
+    background: #16171C;
+}
+
+/* Hide specific elements */
+#xatstyabout, 
+#xatstyinfo, 
+#xatstywhatpoll, 
+hr {
+    display: none;
+}
+
+/* No background for media and table cells */
+#xatstymedia, 
+td {
+    background: none;
+}
+
+/* Links */
+a {
+    color: #676767;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Selection */
+*::selection {
+    background: white;
+}
